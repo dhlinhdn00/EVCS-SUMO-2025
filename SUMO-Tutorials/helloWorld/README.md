@@ -54,12 +54,19 @@ sumo-gui -c hello.sumocfg  # GUI mode
 ```
 
 ### **Workflow**
+
 1️⃣ **Create Nodes File**
+
 2️⃣ **Create Edges File**
+
 3️⃣ **Generate Network File** (from Nodes and Edges)
+
 4️⃣ **Create Routes File**
+
 5️⃣ **Create SUMO Configuration File**
+
 6️⃣ **Start Simulation**
+
 7️⃣ **Create ViewSettings File** (and add it to the SUMO Configuration File)
 
 ### **Advanced Resources**
