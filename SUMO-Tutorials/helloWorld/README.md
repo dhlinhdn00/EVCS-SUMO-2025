@@ -9,7 +9,7 @@
 - **SUMO GUI** and **netedit** version **≥ 1.4.0**
 
 ---
-## GUI-based Approach
+## GUI-BASED APPROACH
 ### Basic Files for a SUMO Simulation
 | File Type        | Extension         | Description |
 |-----------------|------------------|-------------|
@@ -41,7 +41,7 @@
 - **Reload Simulation**: Click `Reload` Button
 
 ---
-## Script-based Approach
+## SCRIPT-BASED APPROACH
 ### **Generating a Network from Nodes and Edges**
 ```sh
 netconvert --node-files=helloWorld.nod.xml --edge-files=helloWorld.edg.xml --output-file=helloWorld.net.xml
