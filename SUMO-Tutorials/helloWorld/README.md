@@ -1,4 +1,4 @@
-# Hello World Tutorial for SUMO
+# Hello World Tutorial
 
 ## Useful Links
 - [Hello World Tutorial](https://sumo.dlr.de/docs/Tutorials/Hello_World.html)
