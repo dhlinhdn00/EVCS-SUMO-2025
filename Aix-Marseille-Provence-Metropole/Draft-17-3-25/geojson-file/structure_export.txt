@@ -1,0 +1,109 @@
+type: str
+generator: str
+copyright: str
+timestamp: str
+features: list
+  List of dict
+    type: str
+    properties: dict
+      @id: str
+      admin_level: str
+      boundary: str
+      name: str
+      name:fr: str
+      name:oc: str
+      population: str
+      population:date: str
+      postal_code: str
+      ref:FR:SIREN: str
+      ref:INSEE: str
+      source:name:oc: str
+      source:population: str
+      source:postal_code: str
+      type: str
+      wikidata: str
+      wikipedia: str
+      @timestamp: str
+      @version: int
+      @changeset: int
+      @user: str
+      @uid: int
+    geometry: dict
+      type: str
+      coordinates: list
+        List of list
+          List of list
+            List of list
+              List of float
+              List of float
+              List of float
+          List of list
+            List of list
+              List of float
+              List of float
+              List of float
+    id: str
+    type: str
+    properties: dict
+      @id: str
+      admin_level: str
+      boundary: str
+      name: str
+      name:oc: str
+      population: str
+      population:date: str
+      postal_code: str
+      ref:FR:SIREN: str
+      ref:INSEE: str
+      source:name:oc: str
+      source:population: str
+      source:postal_code: str
+      type: str
+      wikidata: str
+      wikipedia: str
+      @timestamp: str
+      @version: int
+      @changeset: int
+      @user: str
+      @uid: int
+    geometry: dict
+      type: str
+      coordinates: list
+        List of list
+          List of list
+            List of float
+            List of float
+            List of float
+    id: str
+    type: str
+    properties: dict
+      @id: str
+      admin_level: str
+      boundary: str
+      name: str
+      name:oc: str
+      population: str
+      population:date: str
+      postal_code: str
+      ref:FR:SIREN: str
+      ref:INSEE: str
+      source:name:oc: str
+      source:population: str
+      source:postal_code: str
+      type: str
+      wikidata: str
+      wikipedia: str
+      @timestamp: str
+      @version: int
+      @changeset: int
+      @user: str
+      @uid: int
+    geometry: dict
+      type: str
+      coordinates: list
+        List of list
+          List of list
+            List of float
+            List of float
+            List of float
+    id: str
