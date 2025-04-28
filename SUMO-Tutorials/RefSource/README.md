@@ -1,1 +1,1 @@
-Just git clone sumo open source! I ignored it in !gitignore
+Just git clone sumo open source! I ignored it in .gitignore
