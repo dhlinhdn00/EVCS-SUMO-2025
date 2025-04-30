@@ -58,53 +58,57 @@ def extractMaxComponent(input_file, output_file):
             f.write(f"{e}\n")
 
     print(f"[DONE] Found component with {max_count} edges, written to {output_file}")
-    
+
 def parseShape(shape_str: str):
     """Parses a SUMO shape string into a Shapely Polygon."""
-    pts = []
-    for pt in shape_str.strip().split():
-        try:
-            x, y = map(float, pt.split(','))
-            pts.append((x, y))
-        except:
-            continue
-    if len(pts) < 3:
+    try:
+        coords = [tuple(map(float, p.split(','))) for p in shape_str.strip().split()]
+    except ValueError:
         return None
-    if pts[0] != pts[-1]:
-        pts.append(pts[0])
-    poly = Polygon(pts)
+    if len(coords) < 3:
+        return None
+    if coords[0] != coords[-1]:
+        coords.append(coords[0])
+    poly = Polygon(coords)
     if not poly.is_valid:
         poly = poly.buffer(0)
     return poly if poly.is_valid else None
 
-def selectBoundaryEdges(edges, geom, threshold_ratio=0.1):
+def selectBoundaryEdges(edges, geom, ratio=0.1):
     """Select edges whose midpoint is close to the boundary of the given geometry."""
-    minx, miny, maxx, maxy = geom.bounds
-    min_dim = min(maxx - minx, maxy - miny)
-    th = min_dim * threshold_ratio
-    boundary = geom.boundary
-    result = []
-    for e in edges:
-        shape = e.getShape()
-        mid = shape[len(shape)//2]
-        pt = Point(mid[0], mid[1])
-        if pt.distance(boundary) < th:
-            result.append(e)
-    return result
 
-def has_reverse(edge) -> bool:
+    if geom is None:
+        return []
+    minx, miny, maxx, maxy = geom.bounds
+    th = min(maxx - minx, maxy - miny) * ratio
+    boundary = geom.boundary
+    return [e for e in edges if Point(e.getShape()[len(e.getShape())//2]).distance(boundary) < th]
+
+def hasReverse(edge):
     fn, tn = edge.getFromNode(), edge.getToNode()
     return any(o.getToNode() is fn for o in tn.getOutgoing())
 
+def isValidEdge(edge):
+    return (not edge.getID().startswith('-')  # skip reverse direction
+            and not edge.getID().endswith(('-source', '-sink'))
+            and edge.getShape()
+            and hasReverse(edge))            # true two‑way road
 
-def is_oneway(edge) -> bool:
-    return not has_reverse(edge)
+def reachable(edge_from, edge_to, net):
+    return net.getShortestPath(edge_from, edge_to)[0] is not None
 
-def reachable_inside(edge, pool, net, sample):
+def filterReachable(pool, net, sample):
+    """Keep edges that can reach **and** be reached from ≥1 peer in *pool*."""
     if len(pool) <= 1:
-        return True
-    targets = random.sample([e for e in pool if e is not edge], min(sample, len(pool) - 1))
-    return any(net.getShortestPath(edge, t)[0] is not None for t in targets)
+        return pool
+    keep = []
+    for e in pool:
+        targets = random.sample([x for x in pool if x is not e], min(sample, len(pool)-1))
+        ok_out = any(reachable(e, t, net) for t in targets)
+        ok_in  = any(reachable(t, e, net) for t in targets)
+        if ok_out and ok_in:
+            keep.append(e)
+    return keep
 
 def generateOds(csv_path: str, od_dir: str, region_ids: dict, real_origin: str = "marseille",
                  exclude_cols: set = None, trips_ratio: float = 1.0, 

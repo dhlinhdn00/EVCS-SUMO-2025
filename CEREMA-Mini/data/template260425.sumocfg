@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="..."/>
+        <route-files value="..."/>
+        <additional-files value="..."/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="86400"/>
+        <step-length value="1.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <ignore-junction-blocker value="120"/>
+        <time-to-teleport value="600"/>
+        <step-method.ballistic value="true"/>
+        <extrapolate-departpos value="true"/>
+        <lateral-resolution value="0.8"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.probability value="0.0"/>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+        <device.rerouting.with-taz value="true"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <statistic-output value="..."/>
+        <duration-log.statistics value="true"/>
+        <log value="..."/>
+    </report>
+
+    <output>
+        <summary-output value="..."/>
+        <summary-output.period value="900"/> 
+        <tripinfo-output value="..."/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <vehroute-output value="..."/>
+        <vehroute-output.route-length value="true"/>
+        <vehroute-output.exit-times value="true"/>
+        <vehroute-output.write-unfinished value="true"/>
+        <lanechange-output value="/..."/>
+        <lanechange-output.xy value="true"/>
+        <fcd-output value="..."/>
+        <fcd-output.distance value="true"/>
+        <fcd-output.acceleration value="true"/>
+        <fcd-output.attributes value="x,y,angle,speed,acceleration,accelerationLat,edge,lane,leaderID,leaderSpeed,leaderGap"/>
+        <fcd-output.max-leader-distance value="30"/>
+        <fcd-output.signals value="true"/>
+        <battery-output value="..."/>
+        <battery-output.precision value="4"/>
+        <collision-output value="..."/>
+        <!-- <netstate-dump value="..."/>
+        <netstate-dump.empty-edges value="true"/>
+        <netstate-dump.precision value="2"/> -->
+        <write-license value="true"/>
+    </output>
+
+    <!-- <battery>
+        <device.battery.probability value="0.2"/>
+    </battery> -->
+
+    <random_number>
+        <random value="true"/>
+        <seed value="2025"/>
+    </random_number>
+
+</configuration>
