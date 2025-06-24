@@ -1,0 +1,507 @@
+<?xml version="1.0" ?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+  <vTypeDistribution id="carDist">
+    <vTypeDistribution id="carDist">
+      <vType id="carDist0" vClass="passenger" carFollowModel="EIDM" tau="1.68" sigma="0.18" accel="1.58" decel="6.15" length="4.13" minGap="2.85" maxSpeed="15.37" speedDev="0.03" width="1.71" height="1.43" mass="856.12">
+        <param key="speedFactor" value="1.11"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist1" vClass="passenger" carFollowModel="EIDM" tau="0.38" sigma="0.19" accel="2.59" decel="3.32" length="3.86" minGap="2.54" maxSpeed="14.50" speedDev="0.06" width="1.84" height="1.58" mass="1404.89">
+        <param key="speedFactor" value="0.95"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist2" vClass="passenger" carFollowModel="EIDM" tau="1.07" sigma="0.67" accel="2.48" decel="4.38" length="4.31" minGap="3.46" maxSpeed="14.20" speedDev="0.04" width="1.78" height="1.45" mass="591.29">
+        <param key="speedFactor" value="1.14"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist3" vClass="passenger" carFollowModel="EIDM" tau="1.07" sigma="0.42" accel="3.07" decel="3.66" length="3.94" minGap="2.41" maxSpeed="13.75" speedDev="0.08" width="1.93" height="1.59" mass="1466.11">
+        <param key="speedFactor" value="1.03"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist4" vClass="passenger" carFollowModel="EIDM" tau="1.17" sigma="0.37" accel="2.60" decel="5.52" length="4.73" minGap="2.74" maxSpeed="14.75" speedDev="0.10" width="1.77" height="1.43" mass="1835.11">
+        <param key="speedFactor" value="1.08"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist5" vClass="passenger" carFollowModel="EIDM" tau="1.08" sigma="0.24" accel="2.29" decel="3.55" length="4.47" minGap="3.22" maxSpeed="14.92" speedDev="0.02" width="1.70" height="1.56" mass="1384.62">
+        <param key="speedFactor" value="1.17"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist6" vClass="passenger" carFollowModel="EIDM" tau="1.30" sigma="0.61" accel="3.18" decel="1.94" length="5.29" minGap="2.34" maxSpeed="11.34" speedDev="0.04" width="1.78" height="1.45" mass="1799.21">
+        <param key="speedFactor" value="1.09"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist7" vClass="passenger" carFollowModel="EIDM" tau="1.07" sigma="0.15" accel="2.80" decel="3.81" length="4.54" minGap="2.71" maxSpeed="14.01" speedDev="0.09" width="1.64" height="1.50" mass="1509.16">
+        <param key="speedFactor" value="1.15"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist8" vClass="passenger" carFollowModel="EIDM" tau="1.27" sigma="0.12" accel="1.71" decel="3.11" length="4.19" minGap="2.10" maxSpeed="13.46" speedDev="0.05" width="1.74" height="1.62" mass="1127.36">
+        <param key="speedFactor" value="1.03"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist9" vClass="passenger" carFollowModel="EIDM" tau="1.20" sigma="0.50" accel="2.98" decel="6.14" length="4.05" minGap="2.62" maxSpeed="10.50" speedDev="0.04" width="1.86" height="1.48" mass="1820.53">
+        <param key="speedFactor" value="1.08"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist10" vClass="passenger" carFollowModel="EIDM" tau="0.58" sigma="0.62" accel="2.02" decel="4.08" length="4.28" minGap="2.79" maxSpeed="13.22" speedDev="0.08" width="1.95" height="1.50" mass="1411.19">
+        <param key="speedFactor" value="1.09"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist11" vClass="passenger" carFollowModel="EIDM" tau="1.30" sigma="0.46" accel="2.26" decel="5.01" length="5.32" minGap="1.96" maxSpeed="15.33" speedDev="0.09" width="1.83" height="1.40" mass="1529.99">
+        <param key="speedFactor" value="1.09"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist12" vClass="passenger" carFollowModel="EIDM" tau="1.17" sigma="0.63" accel="1.27" decel="4.73" length="4.41" minGap="1.91" maxSpeed="10.67" speedDev="0.00" width="1.89" height="1.58" mass="1320.63">
+        <param key="speedFactor" value="1.02"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist13" vClass="passenger" carFollowModel="EIDM" tau="0.96" sigma="0.36" accel="2.79" decel="4.92" length="4.40" minGap="2.26" maxSpeed="12.96" speedDev="0.01" width="1.66" height="1.46" mass="1080.79">
+        <param key="speedFactor" value="0.91"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist14" vClass="passenger" carFollowModel="EIDM" tau="0.90" sigma="0.70" accel="1.87" decel="3.70" length="3.97" minGap="2.76" maxSpeed="17.51" speedDev="0.02" width="1.95" height="1.54" mass="1422.62">
+        <param key="speedFactor" value="0.96"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist15" vClass="passenger" carFollowModel="EIDM" tau="0.99" sigma="0.45" accel="2.18" decel="4.80" length="5.15" minGap="2.92" maxSpeed="9.40" speedDev="0.00" width="1.82" height="1.62" mass="1556.13">
+        <param key="speedFactor" value="1.02"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist16" vClass="passenger" carFollowModel="EIDM" tau="0.85" sigma="0.68" accel="2.16" decel="6.31" length="4.24" minGap="2.36" maxSpeed="17.62" speedDev="0.04" width="1.77" height="1.46" mass="1497.73">
+        <param key="speedFactor" value="0.97"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist17" vClass="passenger" carFollowModel="EIDM" tau="1.44" sigma="0.37" accel="2.37" decel="4.52" length="4.74" minGap="2.55" maxSpeed="15.44" speedDev="0.01" width="1.84" height="1.53" mass="1479.96">
+        <param key="speedFactor" value="0.99"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist18" vClass="passenger" carFollowModel="EIDM" tau="0.69" sigma="0.82" accel="1.86" decel="5.74" length="4.75" minGap="2.18" maxSpeed="20.08" speedDev="0.02" width="1.69" height="1.58" mass="1568.58">
+        <param key="speedFactor" value="1.00"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist19" vClass="passenger" carFollowModel="EIDM" tau="1.36" sigma="0.21" accel="2.39" decel="5.44" length="4.68" minGap="3.48" maxSpeed="12.64" speedDev="0.02" width="1.72" height="1.53" mass="1884.05">
+        <param key="speedFactor" value="1.06"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist20" vClass="passenger" carFollowModel="EIDM" tau="0.51" sigma="0.84" accel="2.33" decel="5.04" length="3.97" minGap="1.95" maxSpeed="13.52" speedDev="0.09" width="1.91" height="1.55" mass="708.43">
+        <param key="speedFactor" value="1.00"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist21" vClass="passenger" carFollowModel="EIDM" tau="1.28" sigma="0.50" accel="2.72" decel="5.90" length="4.58" minGap="2.49" maxSpeed="16.38" speedDev="0.03" width="1.69" height="1.27" mass="1506.54">
+        <param key="speedFactor" value="1.10"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist22" vClass="passenger" carFollowModel="EIDM" tau="1.20" sigma="0.66" accel="2.36" decel="3.90" length="4.10" minGap="2.92" maxSpeed="14.04" speedDev="0.07" width="1.83" height="1.45" mass="1500.55">
+        <param key="speedFactor" value="0.93"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist23" vClass="passenger" carFollowModel="EIDM" tau="0.59" sigma="0.62" accel="2.50" decel="3.29" length="4.49" minGap="2.77" maxSpeed="12.44" speedDev="0.05" width="1.71" height="1.33" mass="1328.64">
+        <param key="speedFactor" value="1.12"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist24" vClass="passenger" carFollowModel="EIDM" tau="1.17" sigma="0.20" accel="2.78" decel="5.31" length="3.57" minGap="1.99" maxSpeed="13.44" speedDev="0.07" width="1.89" height="1.50" mass="1147.07">
+        <param key="speedFactor" value="1.12"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist25" vClass="passenger" carFollowModel="EIDM" tau="1.26" sigma="0.63" accel="3.06" decel="5.82" length="4.24" minGap="1.42" maxSpeed="13.73" speedDev="0.10" width="1.81" height="1.54" mass="1874.74">
+        <param key="speedFactor" value="0.97"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist26" vClass="passenger" carFollowModel="EIDM" tau="0.72" sigma="0.44" accel="2.50" decel="4.74" length="4.37" minGap="2.68" maxSpeed="17.25" speedDev="0.10" width="1.93" height="1.49" mass="1575.40">
+        <param key="speedFactor" value="1.05"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist27" vClass="passenger" carFollowModel="EIDM" tau="1.15" sigma="0.50" accel="3.31" decel="4.77" length="4.55" minGap="1.86" maxSpeed="14.74" speedDev="0.10" width="1.99" height="1.32" mass="1391.60">
+        <param key="speedFactor" value="0.86"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist28" vClass="passenger" carFollowModel="EIDM" tau="1.24" sigma="0.59" accel="1.65" decel="3.60" length="3.67" minGap="2.38" maxSpeed="16.26" speedDev="0.03" width="1.93" height="1.46" mass="1637.09">
+        <param key="speedFactor" value="0.96"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist29" vClass="passenger" carFollowModel="EIDM" tau="1.18" sigma="0.29" accel="3.12" decel="5.51" length="4.84" minGap="2.81" maxSpeed="13.08" speedDev="0.07" width="2.08" height="1.35" mass="1510.45">
+        <param key="speedFactor" value="0.97"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist30" vClass="passenger" carFollowModel="EIDM" tau="1.01" sigma="0.54" accel="2.97" decel="4.86" length="4.84" minGap="2.05" maxSpeed="14.71" speedDev="0.02" width="1.71" height="1.49" mass="1274.45">
+        <param key="speedFactor" value="1.13"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist31" vClass="passenger" carFollowModel="EIDM" tau="1.22" sigma="0.42" accel="2.42" decel="3.69" length="3.15" minGap="2.63" maxSpeed="14.42" speedDev="0.02" width="1.82" height="1.52" mass="1335.27">
+        <param key="speedFactor" value="0.87"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist32" vClass="passenger" carFollowModel="EIDM" tau="1.07" sigma="0.87" accel="2.98" decel="5.75" length="4.50" minGap="2.77" maxSpeed="12.89" speedDev="0.06" width="1.80" height="1.46" mass="1108.59">
+        <param key="speedFactor" value="1.15"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist33" vClass="passenger" carFollowModel="EIDM" tau="0.49" sigma="0.45" accel="3.00" decel="4.38" length="4.88" minGap="3.34" maxSpeed="18.59" speedDev="0.08" width="1.82" height="1.61" mass="1694.67">
+        <param key="speedFactor" value="0.83"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist34" vClass="passenger" carFollowModel="EIDM" tau="1.03" sigma="0.85" accel="2.22" decel="6.59" length="4.45" minGap="2.08" maxSpeed="12.87" speedDev="0.04" width="1.78" height="1.50" mass="1126.04">
+        <param key="speedFactor" value="1.01"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist35" vClass="passenger" carFollowModel="EIDM" tau="0.64" sigma="0.54" accel="2.58" decel="3.42" length="4.42" minGap="3.23" maxSpeed="14.47" speedDev="0.09" width="1.74" height="1.38" mass="1438.76">
+        <param key="speedFactor" value="0.97"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist36" vClass="passenger" carFollowModel="EIDM" tau="0.58" sigma="0.56" accel="3.01" decel="5.06" length="4.35" minGap="2.63" maxSpeed="15.82" speedDev="0.06" width="1.50" height="1.52" mass="1751.13">
+        <param key="speedFactor" value="1.13"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist37" vClass="passenger" carFollowModel="EIDM" tau="0.88" sigma="0.48" accel="3.47" decel="4.70" length="5.17" minGap="2.22" maxSpeed="16.30" speedDev="0.01" width="1.61" height="1.42" mass="1582.62">
+        <param key="speedFactor" value="1.01"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist38" vClass="passenger" carFollowModel="EIDM" tau="0.82" sigma="0.67" accel="2.01" decel="5.54" length="4.08" minGap="1.72" maxSpeed="12.99" speedDev="0.08" width="1.69" height="1.45" mass="1534.44">
+        <param key="speedFactor" value="1.11"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist39" vClass="passenger" carFollowModel="EIDM" tau="1.01" sigma="0.60" accel="2.82" decel="4.59" length="3.91" minGap="2.79" maxSpeed="13.68" speedDev="0.04" width="1.91" height="1.73" mass="1590.92">
+        <param key="speedFactor" value="0.98"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist40" vClass="passenger" carFollowModel="EIDM" tau="0.89" sigma="0.41" accel="2.44" decel="4.73" length="4.69" minGap="2.85" maxSpeed="14.79" speedDev="0.02" width="1.75" height="1.41" mass="1478.57">
+        <param key="speedFactor" value="0.79"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist41" vClass="passenger" carFollowModel="EIDM" tau="1.40" sigma="0.45" accel="3.17" decel="4.24" length="4.03" minGap="2.34" maxSpeed="13.64" speedDev="0.05" width="1.75" height="1.53" mass="1799.15">
+        <param key="speedFactor" value="1.08"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist42" vClass="passenger" carFollowModel="EIDM" tau="1.02" sigma="0.23" accel="2.22" decel="6.33" length="4.45" minGap="2.08" maxSpeed="11.38" speedDev="0.02" width="1.66" height="1.34" mass="1815.49">
+        <param key="speedFactor" value="0.91"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist43" vClass="passenger" carFollowModel="EIDM" tau="1.17" sigma="0.40" accel="3.08" decel="5.53" length="4.13" minGap="2.34" maxSpeed="15.16" speedDev="0.02" width="1.77" height="1.63" mass="1132.83">
+        <param key="speedFactor" value="1.09"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist44" vClass="passenger" carFollowModel="EIDM" tau="1.19" sigma="0.59" accel="3.00" decel="5.44" length="3.98" minGap="1.89" maxSpeed="14.38" speedDev="0.04" width="1.68" height="1.60" mass="1127.74">
+        <param key="speedFactor" value="0.99"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist45" vClass="passenger" carFollowModel="EIDM" tau="0.96" sigma="0.60" accel="2.46" decel="4.12" length="4.46" minGap="2.89" maxSpeed="11.84" speedDev="0.02" width="1.84" height="1.54" mass="1761.78">
+        <param key="speedFactor" value="1.19"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist46" vClass="passenger" carFollowModel="EIDM" tau="0.60" sigma="0.68" accel="3.89" decel="4.17" length="4.55" minGap="2.34" maxSpeed="14.72" speedDev="0.04" width="1.90" height="1.36" mass="1017.22">
+        <param key="speedFactor" value="0.84"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist47" vClass="passenger" carFollowModel="EIDM" tau="1.06" sigma="0.35" accel="1.82" decel="5.45" length="4.63" minGap="2.15" maxSpeed="13.24" speedDev="0.09" width="1.90" height="1.39" mass="1661.06">
+        <param key="speedFactor" value="1.08"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist48" vClass="passenger" carFollowModel="EIDM" tau="1.39" sigma="0.64" accel="2.94" decel="4.23" length="4.32" minGap="3.24" maxSpeed="14.18" speedDev="0.04" width="1.88" height="1.47" mass="1683.05">
+        <param key="speedFactor" value="1.03"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist49" vClass="passenger" carFollowModel="EIDM" tau="1.06" sigma="0.41" accel="1.96" decel="4.40" length="4.95" minGap="1.15" maxSpeed="12.98" speedDev="0.06" width="1.74" height="1.35" mass="1522.60">
+        <param key="speedFactor" value="1.23"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist50" vClass="passenger" carFollowModel="EIDM" tau="0.68" sigma="0.87" accel="3.19" decel="3.74" length="4.16" minGap="2.31" maxSpeed="14.32" speedDev="0.04" width="1.82" height="1.35" mass="1525.02">
+        <param key="speedFactor" value="0.80"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist51" vClass="passenger" carFollowModel="EIDM" tau="1.11" sigma="0.49" accel="3.31" decel="4.63" length="4.25" minGap="2.96" maxSpeed="14.07" speedDev="0.00" width="1.86" height="1.45" mass="1561.00">
+        <param key="speedFactor" value="1.00"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist52" vClass="passenger" carFollowModel="EIDM" tau="1.29" sigma="0.34" accel="3.68" decel="5.48" length="4.95" minGap="2.44" maxSpeed="14.10" speedDev="0.03" width="1.90" height="1.58" mass="1158.07">
+        <param key="speedFactor" value="1.17"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist53" vClass="passenger" carFollowModel="EIDM" tau="1.06" sigma="0.50" accel="2.76" decel="6.13" length="4.75" minGap="3.11" maxSpeed="13.04" speedDev="0.09" width="1.58" height="1.38" mass="1126.35">
+        <param key="speedFactor" value="0.99"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist54" vClass="passenger" carFollowModel="EIDM" tau="0.89" sigma="0.28" accel="2.85" decel="3.17" length="4.47" minGap="2.12" maxSpeed="11.20" speedDev="0.06" width="1.69" height="1.54" mass="1482.72">
+        <param key="speedFactor" value="0.97"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist55" vClass="passenger" carFollowModel="EIDM" tau="0.98" sigma="0.73" accel="3.03" decel="5.53" length="4.51" minGap="2.21" maxSpeed="16.27" speedDev="0.06" width="1.76" height="1.55" mass="1295.76">
+        <param key="speedFactor" value="0.96"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist56" vClass="passenger" carFollowModel="EIDM" tau="1.23" sigma="0.46" accel="3.35" decel="4.95" length="4.58" minGap="2.51" maxSpeed="15.12" speedDev="0.02" width="1.75" height="1.73" mass="1861.03">
+        <param key="speedFactor" value="1.13"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist57" vClass="passenger" carFollowModel="EIDM" tau="0.66" sigma="0.59" accel="2.39" decel="6.13" length="4.09" minGap="2.95" maxSpeed="14.29" speedDev="0.06" width="1.83" height="1.48" mass="1570.08">
+        <param key="speedFactor" value="1.04"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist58" vClass="passenger" carFollowModel="EIDM" tau="1.28" sigma="0.98" accel="2.28" decel="4.07" length="4.41" minGap="3.10" maxSpeed="12.34" speedDev="0.04" width="1.81" height="1.31" mass="1407.64">
+        <param key="speedFactor" value="1.04"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist59" vClass="passenger" carFollowModel="EIDM" tau="0.92" sigma="0.64" accel="2.61" decel="2.63" length="4.66" minGap="2.61" maxSpeed="11.58" speedDev="0.07" width="1.80" height="1.36" mass="1217.65">
+        <param key="speedFactor" value="0.91"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist60" vClass="passenger" carFollowModel="EIDM" tau="0.64" sigma="0.66" accel="2.08" decel="3.93" length="3.82" minGap="2.25" maxSpeed="12.02" speedDev="0.02" width="1.81" height="1.54" mass="1066.13">
+        <param key="speedFactor" value="1.03"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist61" vClass="passenger" carFollowModel="EIDM" tau="1.20" sigma="0.43" accel="2.46" decel="4.04" length="4.52" minGap="2.68" maxSpeed="14.22" speedDev="0.04" width="1.77" height="1.58" mass="1310.81">
+        <param key="speedFactor" value="1.09"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist62" vClass="passenger" carFollowModel="EIDM" tau="0.76" sigma="0.18" accel="2.00" decel="5.56" length="4.13" minGap="2.50" maxSpeed="11.51" speedDev="0.08" width="1.94" height="1.43" mass="751.78">
+        <param key="speedFactor" value="1.11"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist63" vClass="passenger" carFollowModel="EIDM" tau="1.71" sigma="0.43" accel="2.91" decel="1.64" length="4.37" minGap="3.95" maxSpeed="11.04" speedDev="0.09" width="1.83" height="1.59" mass="1073.34">
+        <param key="speedFactor" value="1.04"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist64" vClass="passenger" carFollowModel="EIDM" tau="0.85" sigma="0.69" accel="2.54" decel="6.35" length="4.90" minGap="2.81" maxSpeed="12.77" speedDev="0.09" width="1.90" height="1.46" mass="1126.21">
+        <param key="speedFactor" value="0.93"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist65" vClass="passenger" carFollowModel="EIDM" tau="0.99" sigma="0.27" accel="2.62" decel="3.57" length="4.38" minGap="2.54" maxSpeed="17.63" speedDev="0.01" width="1.89" height="1.55" mass="2216.72">
+        <param key="speedFactor" value="0.80"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist66" vClass="passenger" carFollowModel="EIDM" tau="1.25" sigma="0.82" accel="2.03" decel="4.46" length="4.05" minGap="2.76" maxSpeed="12.37" speedDev="0.08" width="1.77" height="1.49" mass="1704.27">
+        <param key="speedFactor" value="0.96"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist67" vClass="passenger" carFollowModel="EIDM" tau="0.98" sigma="0.41" accel="2.51" decel="3.60" length="5.33" minGap="2.49" maxSpeed="10.40" speedDev="0.03" width="1.84" height="1.50" mass="1305.49">
+        <param key="speedFactor" value="1.04"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist68" vClass="passenger" carFollowModel="EIDM" tau="1.23" sigma="0.13" accel="3.21" decel="4.31" length="4.21" minGap="1.79" maxSpeed="13.53" speedDev="0.04" width="1.74" height="1.47" mass="1406.52">
+        <param key="speedFactor" value="1.02"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist69" vClass="passenger" carFollowModel="EIDM" tau="1.11" sigma="0.55" accel="3.13" decel="4.50" length="3.87" minGap="1.98" maxSpeed="14.58" speedDev="0.04" width="1.76" height="1.37" mass="1189.89">
+        <param key="speedFactor" value="1.08"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist70" vClass="passenger" carFollowModel="EIDM" tau="0.76" sigma="0.40" accel="3.19" decel="4.11" length="4.49" minGap="2.79" maxSpeed="15.57" speedDev="0.08" width="1.80" height="1.52" mass="2034.73">
+        <param key="speedFactor" value="1.13"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist71" vClass="passenger" carFollowModel="EIDM" tau="1.65" sigma="0.72" accel="3.02" decel="4.61" length="5.09" minGap="2.66" maxSpeed="15.87" speedDev="0.06" width="1.72" height="1.44" mass="1817.74">
+        <param key="speedFactor" value="1.03"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist72" vClass="passenger" carFollowModel="EIDM" tau="0.73" sigma="0.44" accel="2.24" decel="3.57" length="5.48" minGap="2.18" maxSpeed="12.95" speedDev="0.09" width="1.85" height="1.51" mass="1202.42">
+        <param key="speedFactor" value="0.92"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist73" vClass="passenger" carFollowModel="EIDM" tau="1.33" sigma="0.29" accel="2.92" decel="4.09" length="4.77" minGap="2.56" maxSpeed="16.15" speedDev="0.10" width="1.96" height="1.26" mass="1775.54">
+        <param key="speedFactor" value="0.97"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist74" vClass="passenger" carFollowModel="EIDM" tau="0.84" sigma="0.53" accel="2.69" decel="5.01" length="4.97" minGap="3.54" maxSpeed="14.28" speedDev="0.05" width="1.75" height="1.36" mass="1467.11">
+        <param key="speedFactor" value="1.03"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist75" vClass="passenger" carFollowModel="EIDM" tau="1.25" sigma="0.07" accel="2.84" decel="4.95" length="4.06" minGap="2.13" maxSpeed="11.81" speedDev="0.06" width="2.01" height="1.53" mass="1994.69">
+        <param key="speedFactor" value="1.12"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist76" vClass="passenger" carFollowModel="EIDM" tau="1.11" sigma="0.61" accel="2.34" decel="4.42" length="4.79" minGap="2.44" maxSpeed="12.48" speedDev="0.04" width="1.72" height="1.49" mass="1435.01">
+        <param key="speedFactor" value="1.03"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist77" vClass="passenger" carFollowModel="EIDM" tau="1.19" sigma="0.53" accel="2.91" decel="4.33" length="3.91" minGap="3.07" maxSpeed="14.66" speedDev="0.10" width="1.80" height="1.52" mass="1518.95">
+        <param key="speedFactor" value="0.96"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist78" vClass="passenger" carFollowModel="EIDM" tau="1.07" sigma="0.30" accel="2.56" decel="4.81" length="4.23" minGap="3.75" maxSpeed="14.30" speedDev="0.06" width="1.83" height="1.41" mass="1006.18">
+        <param key="speedFactor" value="0.99"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist79" vClass="passenger" carFollowModel="EIDM" tau="0.99" sigma="0.39" accel="3.37" decel="3.03" length="5.08" minGap="2.02" maxSpeed="14.19" speedDev="0.03" width="1.80" height="1.44" mass="1535.21">
+        <param key="speedFactor" value="0.91"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist80" vClass="passenger" carFollowModel="EIDM" tau="0.86" sigma="0.29" accel="2.45" decel="5.10" length="4.62" minGap="2.04" maxSpeed="12.44" speedDev="0.03" width="1.95" height="1.40" mass="1931.32">
+        <param key="speedFactor" value="1.05"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist81" vClass="passenger" carFollowModel="EIDM" tau="1.44" sigma="0.67" accel="3.12" decel="5.01" length="4.57" minGap="2.86" maxSpeed="12.41" speedDev="0.02" width="1.75" height="1.50" mass="1805.68">
+        <param key="speedFactor" value="1.03"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist82" vClass="passenger" carFollowModel="EIDM" tau="1.26" sigma="0.56" accel="2.54" decel="5.39" length="4.67" minGap="2.86" maxSpeed="12.30" speedDev="0.05" width="1.77" height="1.53" mass="878.67">
+        <param key="speedFactor" value="0.93"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist83" vClass="passenger" carFollowModel="EIDM" tau="0.87" sigma="0.21" accel="2.72" decel="5.57" length="4.50" minGap="2.41" maxSpeed="13.33" speedDev="0.05" width="1.95" height="1.64" mass="1418.12">
+        <param key="speedFactor" value="0.93"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist84" vClass="passenger" carFollowModel="EIDM" tau="1.26" sigma="0.42" accel="2.93" decel="3.27" length="4.15" minGap="2.34" maxSpeed="14.09" speedDev="0.08" width="1.91" height="1.33" mass="1776.45">
+        <param key="speedFactor" value="1.12"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist85" vClass="passenger" carFollowModel="EIDM" tau="0.80" sigma="0.50" accel="2.75" decel="5.85" length="4.94" minGap="2.25" maxSpeed="15.17" speedDev="0.09" width="1.83" height="1.54" mass="1973.77">
+        <param key="speedFactor" value="1.02"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist86" vClass="passenger" carFollowModel="EIDM" tau="1.40" sigma="0.77" accel="1.84" decel="5.71" length="5.02" minGap="2.60" maxSpeed="14.50" speedDev="0.01" width="1.64" height="1.39" mass="1287.32">
+        <param key="speedFactor" value="0.80"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist87" vClass="passenger" carFollowModel="EIDM" tau="1.28" sigma="0.45" accel="1.76" decel="5.07" length="5.07" minGap="2.94" maxSpeed="11.88" speedDev="0.02" width="1.71" height="1.45" mass="1271.10">
+        <param key="speedFactor" value="1.18"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist88" vClass="passenger" carFollowModel="EIDM" tau="1.10" sigma="0.64" accel="3.28" decel="4.14" length="3.64" minGap="1.86" maxSpeed="14.08" speedDev="0.07" width="1.97" height="1.41" mass="1425.91">
+        <param key="speedFactor" value="0.94"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist89" vClass="passenger" carFollowModel="EIDM" tau="0.79" sigma="0.68" accel="3.55" decel="4.30" length="4.17" minGap="2.64" maxSpeed="15.44" speedDev="0.02" width="1.74" height="1.50" mass="1955.41">
+        <param key="speedFactor" value="1.08"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist90" vClass="passenger" carFollowModel="EIDM" tau="0.96" sigma="0.86" accel="2.20" decel="2.66" length="3.27" minGap="3.25" maxSpeed="14.91" speedDev="0.08" width="1.82" height="1.48" mass="1979.96">
+        <param key="speedFactor" value="1.07"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist91" vClass="passenger" carFollowModel="EIDM" tau="0.74" sigma="0.58" accel="2.11" decel="4.30" length="4.11" minGap="2.88" maxSpeed="14.29" speedDev="0.04" width="1.74" height="1.29" mass="1231.51">
+        <param key="speedFactor" value="0.93"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist92" vClass="passenger" carFollowModel="EIDM" tau="1.10" sigma="0.46" accel="2.84" decel="5.38" length="5.55" minGap="2.32" maxSpeed="14.36" speedDev="0.09" width="1.87" height="1.59" mass="1847.49">
+        <param key="speedFactor" value="0.79"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist93" vClass="passenger" carFollowModel="EIDM" tau="0.55" sigma="0.83" accel="3.79" decel="4.04" length="3.72" minGap="3.28" maxSpeed="10.42" speedDev="0.09" width="1.63" height="1.40" mass="1221.98">
+        <param key="speedFactor" value="0.89"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist94" vClass="passenger" carFollowModel="EIDM" tau="0.85" sigma="0.83" accel="3.21" decel="5.34" length="4.41" minGap="2.51" maxSpeed="13.61" speedDev="0.08" width="1.93" height="1.41" mass="1317.15">
+        <param key="speedFactor" value="1.07"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist95" vClass="passenger" carFollowModel="EIDM" tau="1.13" sigma="0.82" accel="2.29" decel="5.60" length="5.07" minGap="2.51" maxSpeed="18.05" speedDev="0.10" width="1.75" height="1.54" mass="1222.44">
+        <param key="speedFactor" value="0.95"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/hatchback"/>
+      </vType>
+      <vType id="carDist96" vClass="passenger" carFollowModel="EIDM" tau="0.39" sigma="0.56" accel="2.17" decel="4.09" length="5.88" minGap="1.51" maxSpeed="15.83" speedDev="0.06" width="1.80" height="1.44" mass="1376.38">
+        <param key="speedFactor" value="1.19"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist97" vClass="passenger" carFollowModel="EIDM" tau="1.03" sigma="0.70" accel="2.61" decel="5.11" length="4.90" minGap="2.23" maxSpeed="13.65" speedDev="0.03" width="2.03" height="1.50" mass="891.91">
+        <param key="speedFactor" value="1.18"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/SUV"/>
+      </vType>
+      <vType id="carDist98" vClass="passenger" carFollowModel="EIDM" tau="1.38" sigma="0.40" accel="2.98" decel="4.42" length="4.07" minGap="2.71" maxSpeed="20.92" speedDev="0.00" width="1.79" height="1.53" mass="1660.99">
+        <param key="speedFactor" value="0.91"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+      <vType id="carDist99" vClass="passenger" carFollowModel="EIDM" tau="1.14" sigma="0.67" accel="2.30" decel="3.66" length="3.83" minGap="1.61" maxSpeed="10.30" speedDev="0.06" width="1.86" height="1.58" mass="1587.10">
+        <param key="speedFactor" value="1.11"/>
+        <param key="color" value="randomColor"/>
+        <param key="guiShape" value="passenger/sedan"/>
+      </vType>
+    </vTypeDistribution>
+  </vTypeDistribution>
+</additional>

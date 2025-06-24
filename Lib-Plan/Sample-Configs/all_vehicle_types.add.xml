@@ -1,0 +1,1496 @@
+<?xml version="1.0" ?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+  <vTypeDistribution id="carDist">
+    <vTypeDistribution id="carDist">
+      <vType id="carDist0" vClass="passenger" carFollowModel="EIDM" tau="1.07" sigma="0.40" accel="3.23" decel="4.36" length="4.01" minGap="2.78" maxSpeed="11.55" speedDev="0.08" width="1.85" height="1.47" mass="1776.78">
+        <param key="speedFactor" value="1.08"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist1" vClass="passenger" carFollowModel="EIDM" tau="1.39" sigma="0.60" accel="3.34" decel="4.95" length="4.00" minGap="2.30" maxSpeed="12.87" speedDev="0.03" width="1.84" height="1.47" mass="1694.92">
+        <param key="speedFactor" value="0.79"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist2" vClass="passenger" carFollowModel="EIDM" tau="0.72" sigma="0.56" accel="2.38" decel="5.44" length="4.72" minGap="3.16" maxSpeed="12.82" speedDev="0.06" width="1.70" height="1.61" mass="1505.39">
+        <param key="speedFactor" value="1.11"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist3" vClass="passenger" carFollowModel="EIDM" tau="0.96" sigma="0.85" accel="3.19" decel="4.59" length="4.64" minGap="2.40" maxSpeed="12.26" speedDev="0.02" width="1.70" height="1.52" mass="1793.31">
+        <param key="speedFactor" value="1.10"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist4" vClass="passenger" carFollowModel="EIDM" tau="0.89" sigma="0.22" accel="2.86" decel="4.41" length="4.42" minGap="2.62" maxSpeed="12.40" speedDev="0.10" width="1.85" height="1.50" mass="1285.94">
+        <param key="speedFactor" value="1.02"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist5" vClass="passenger" carFollowModel="EIDM" tau="0.85" sigma="0.56" accel="2.12" decel="4.87" length="4.62" minGap="3.77" maxSpeed="12.71" speedDev="0.04" width="1.78" height="1.62" mass="1424.15">
+        <param key="speedFactor" value="1.08"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist6" vClass="passenger" carFollowModel="EIDM" tau="0.71" sigma="0.46" accel="2.25" decel="4.59" length="4.86" minGap="2.48" maxSpeed="13.53" speedDev="0.04" width="1.89" height="1.19" mass="1632.99">
+        <param key="speedFactor" value="1.03"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist7" vClass="passenger" carFollowModel="EIDM" tau="1.14" sigma="0.56" accel="2.96" decel="3.17" length="4.70" minGap="1.96" maxSpeed="14.60" speedDev="0.06" width="1.86" height="1.32" mass="1277.42">
+        <param key="speedFactor" value="1.04"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist8" vClass="passenger" carFollowModel="EIDM" tau="0.62" sigma="0.23" accel="2.13" decel="4.23" length="5.47" minGap="2.89" maxSpeed="10.87" speedDev="0.03" width="1.86" height="1.36" mass="1262.51">
+        <param key="speedFactor" value="0.88"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist9" vClass="passenger" carFollowModel="EIDM" tau="1.38" sigma="0.18" accel="2.68" decel="4.97" length="4.58" minGap="2.04" maxSpeed="12.56" speedDev="0.01" width="1.76" height="1.57" mass="1665.82">
+        <param key="speedFactor" value="0.74"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist10" vClass="passenger" carFollowModel="EIDM" tau="0.97" sigma="0.63" accel="1.51" decel="5.61" length="4.70" minGap="3.04" maxSpeed="11.51" speedDev="0.07" width="1.72" height="1.50" mass="1552.89">
+        <param key="speedFactor" value="1.16"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist11" vClass="passenger" carFollowModel="EIDM" tau="1.44" sigma="0.59" accel="2.39" decel="6.63" length="4.25" minGap="2.37" maxSpeed="13.09" speedDev="0.04" width="1.98" height="1.42" mass="1414.09">
+        <param key="speedFactor" value="1.05"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist12" vClass="passenger" carFollowModel="EIDM" tau="0.96" sigma="0.41" accel="2.91" decel="3.03" length="4.67" minGap="3.60" maxSpeed="14.65" speedDev="0.02" width="1.77" height="1.37" mass="1582.90">
+        <param key="speedFactor" value="1.07"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist13" vClass="passenger" carFollowModel="EIDM" tau="0.62" sigma="0.60" accel="2.52" decel="6.13" length="3.99" minGap="3.05" maxSpeed="17.00" speedDev="0.10" width="2.13" height="1.67" mass="1727.88">
+        <param key="speedFactor" value="1.13"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist14" vClass="passenger" carFollowModel="EIDM" tau="0.98" sigma="0.26" accel="3.08" decel="4.80" length="3.99" minGap="2.21" maxSpeed="14.05" speedDev="0.02" width="1.91" height="1.37" mass="1537.54">
+        <param key="speedFactor" value="0.91"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist15" vClass="passenger" carFollowModel="EIDM" tau="1.50" sigma="0.97" accel="2.97" decel="3.19" length="5.17" minGap="2.97" maxSpeed="14.34" speedDev="0.02" width="1.79" height="1.41" mass="1441.02">
+        <param key="speedFactor" value="0.99"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist16" vClass="passenger" carFollowModel="EIDM" tau="1.06" sigma="0.42" accel="2.02" decel="3.26" length="4.13" minGap="2.86" maxSpeed="19.03" speedDev="0.03" width="1.73" height="1.64" mass="1295.25">
+        <param key="speedFactor" value="1.07"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist17" vClass="passenger" carFollowModel="EIDM" tau="0.52" sigma="0.61" accel="2.96" decel="3.32" length="4.19" minGap="2.62" maxSpeed="14.28" speedDev="0.10" width="1.87" height="1.48" mass="1504.66">
+        <param key="speedFactor" value="1.14"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist18" vClass="passenger" carFollowModel="EIDM" tau="1.19" sigma="0.09" accel="2.66" decel="4.09" length="3.16" minGap="2.93" maxSpeed="13.58" speedDev="0.04" width="1.73" height="1.58" mass="2155.03">
+        <param key="speedFactor" value="1.07"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist19" vClass="passenger" carFollowModel="EIDM" tau="1.43" sigma="0.60" accel="2.88" decel="2.95" length="4.10" minGap="2.45" maxSpeed="12.88" speedDev="0.03" width="1.85" height="1.45" mass="1320.30">
+        <param key="speedFactor" value="1.03"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist20" vClass="passenger" carFollowModel="EIDM" tau="0.79" sigma="0.48" accel="3.46" decel="4.09" length="4.16" minGap="2.54" maxSpeed="14.67" speedDev="0.09" width="1.79" height="1.52" mass="1462.44">
+        <param key="speedFactor" value="0.98"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist21" vClass="passenger" carFollowModel="EIDM" tau="0.94" sigma="0.55" accel="1.91" decel="5.37" length="4.01" minGap="2.42" maxSpeed="12.13" speedDev="0.06" width="1.74" height="1.53" mass="1568.12">
+        <param key="speedFactor" value="0.84"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist22" vClass="passenger" carFollowModel="EIDM" tau="1.19" sigma="0.76" accel="2.46" decel="7.27" length="4.09" minGap="3.00" maxSpeed="13.06" speedDev="0.07" width="1.80" height="1.48" mass="1358.61">
+        <param key="speedFactor" value="1.26"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist23" vClass="passenger" carFollowModel="EIDM" tau="1.25" sigma="1.12" accel="1.94" decel="4.95" length="3.96" minGap="2.07" maxSpeed="15.72" speedDev="0.07" width="1.92" height="1.49" mass="1398.40">
+        <param key="speedFactor" value="1.01"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist24" vClass="passenger" carFollowModel="EIDM" tau="0.75" sigma="0.73" accel="2.88" decel="5.67" length="4.32" minGap="2.62" maxSpeed="11.28" speedDev="0.06" width="1.93" height="1.50" mass="1506.28">
+        <param key="speedFactor" value="0.90"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist25" vClass="passenger" carFollowModel="EIDM" tau="0.23" sigma="0.52" accel="3.03" decel="5.35" length="5.26" minGap="2.88" maxSpeed="12.22" speedDev="0.10" width="1.80" height="1.51" mass="1558.52">
+        <param key="speedFactor" value="0.99"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist26" vClass="passenger" carFollowModel="EIDM" tau="0.47" sigma="0.53" accel="3.31" decel="5.37" length="5.28" minGap="3.32" maxSpeed="10.70" speedDev="0.06" width="1.78" height="1.47" mass="1365.79">
+        <param key="speedFactor" value="0.89"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist27" vClass="passenger" carFollowModel="EIDM" tau="1.37" sigma="0.69" accel="3.10" decel="3.38" length="5.92" minGap="2.44" maxSpeed="17.49" speedDev="0.04" width="1.74" height="1.37" mass="1663.54">
+        <param key="speedFactor" value="1.17"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist28" vClass="passenger" carFollowModel="EIDM" tau="0.66" sigma="0.39" accel="2.07" decel="3.86" length="4.71" minGap="2.08" maxSpeed="13.81" speedDev="0.06" width="1.84" height="1.54" mass="1632.42">
+        <param key="speedFactor" value="1.04"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist29" vClass="passenger" carFollowModel="EIDM" tau="1.29" sigma="0.76" accel="2.25" decel="5.14" length="5.06" minGap="3.28" maxSpeed="17.80" speedDev="0.03" width="1.78" height="1.54" mass="1082.42">
+        <param key="speedFactor" value="0.94"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist30" vClass="passenger" carFollowModel="EIDM" tau="1.71" sigma="0.62" accel="2.98" decel="5.58" length="5.54" minGap="2.34" maxSpeed="11.69" speedDev="0.00" width="1.81" height="1.59" mass="1745.07">
+        <param key="speedFactor" value="1.15"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist31" vClass="passenger" carFollowModel="EIDM" tau="1.27" sigma="0.70" accel="2.51" decel="5.60" length="4.49" minGap="2.38" maxSpeed="12.81" speedDev="0.02" width="1.78" height="1.50" mass="1380.29">
+        <param key="speedFactor" value="1.34"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist32" vClass="passenger" carFollowModel="EIDM" tau="0.88" sigma="0.38" accel="3.15" decel="5.28" length="4.59" minGap="2.83" maxSpeed="10.94" speedDev="0.01" width="1.86" height="1.47" mass="1715.66">
+        <param key="speedFactor" value="0.92"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist33" vClass="passenger" carFollowModel="EIDM" tau="0.51" sigma="0.63" accel="2.42" decel="4.68" length="4.41" minGap="2.51" maxSpeed="14.13" speedDev="0.00" width="1.81" height="1.49" mass="1687.90">
+        <param key="speedFactor" value="0.82"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist34" vClass="passenger" carFollowModel="EIDM" tau="0.69" sigma="0.60" accel="2.65" decel="4.70" length="5.68" minGap="3.06" maxSpeed="14.86" speedDev="0.05" width="1.73" height="1.49" mass="1136.46">
+        <param key="speedFactor" value="1.05"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist35" vClass="passenger" carFollowModel="EIDM" tau="1.65" sigma="0.55" accel="2.68" decel="3.50" length="5.07" minGap="2.20" maxSpeed="11.02" speedDev="0.02" width="1.70" height="1.57" mass="1924.09">
+        <param key="speedFactor" value="1.03"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist36" vClass="passenger" carFollowModel="EIDM" tau="0.85" sigma="0.60" accel="3.33" decel="4.30" length="4.62" minGap="2.77" maxSpeed="13.47" speedDev="0.04" width="1.97" height="1.51" mass="1686.01">
+        <param key="speedFactor" value="0.88"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist37" vClass="passenger" carFollowModel="EIDM" tau="0.99" sigma="0.18" accel="2.02" decel="3.34" length="4.47" minGap="1.86" maxSpeed="14.23" speedDev="0.03" width="1.74" height="1.44" mass="1230.71">
+        <param key="speedFactor" value="1.07"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist38" vClass="passenger" carFollowModel="EIDM" tau="1.09" sigma="0.62" accel="1.84" decel="5.71" length="4.89" minGap="2.66" maxSpeed="13.37" speedDev="0.03" width="1.77" height="1.50" mass="1554.44">
+        <param key="speedFactor" value="0.91"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist39" vClass="passenger" carFollowModel="EIDM" tau="0.84" sigma="0.24" accel="3.25" decel="4.46" length="4.90" minGap="3.34" maxSpeed="15.13" speedDev="0.09" width="1.83" height="1.37" mass="1360.09">
+        <param key="speedFactor" value="0.85"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist40" vClass="passenger" carFollowModel="EIDM" tau="0.82" sigma="0.82" accel="2.61" decel="4.95" length="5.12" minGap="3.26" maxSpeed="12.72" speedDev="0.02" width="1.90" height="1.57" mass="1275.98">
+        <param key="speedFactor" value="0.98"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist41" vClass="passenger" carFollowModel="EIDM" tau="1.01" sigma="0.44" accel="2.48" decel="5.30" length="4.64" minGap="1.83" maxSpeed="19.63" speedDev="0.09" width="1.73" height="1.41" mass="1362.69">
+        <param key="speedFactor" value="1.11"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist42" vClass="passenger" carFollowModel="EIDM" tau="0.70" sigma="0.83" accel="3.68" decel="5.17" length="4.72" minGap="2.31" maxSpeed="12.49" speedDev="0.09" width="1.80" height="1.38" mass="1195.35">
+        <param key="speedFactor" value="1.24"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist43" vClass="passenger" carFollowModel="EIDM" tau="0.69" sigma="0.41" accel="2.19" decel="3.03" length="4.41" minGap="1.65" maxSpeed="13.25" speedDev="0.04" width="1.79" height="1.46" mass="1679.95">
+        <param key="speedFactor" value="0.88"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist44" vClass="passenger" carFollowModel="EIDM" tau="1.43" sigma="0.67" accel="2.91" decel="2.50" length="4.07" minGap="2.37" maxSpeed="10.81" speedDev="0.02" width="1.94" height="1.67" mass="1673.89">
+        <param key="speedFactor" value="0.79"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist45" vClass="passenger" carFollowModel="EIDM" tau="1.12" sigma="0.63" accel="1.33" decel="4.81" length="4.53" minGap="2.24" maxSpeed="11.22" speedDev="0.08" width="1.79" height="1.67" mass="1344.92">
+        <param key="speedFactor" value="0.97"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist46" vClass="passenger" carFollowModel="EIDM" tau="0.77" sigma="0.56" accel="2.65" decel="4.15" length="4.88" minGap="3.04" maxSpeed="17.41" speedDev="0.03" width="1.63" height="1.57" mass="1768.34">
+        <param key="speedFactor" value="1.09"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist47" vClass="passenger" carFollowModel="EIDM" tau="1.26" sigma="0.43" accel="3.37" decel="2.78" length="4.09" minGap="2.34" maxSpeed="9.79" speedDev="0.07" width="1.91" height="1.66" mass="1483.16">
+        <param key="speedFactor" value="1.02"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist48" vClass="passenger" carFollowModel="EIDM" tau="1.13" sigma="0.70" accel="2.66" decel="3.66" length="4.30" minGap="2.37" maxSpeed="15.85" speedDev="0.10" width="1.84" height="1.66" mass="1753.16">
+        <param key="speedFactor" value="1.08"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist49" vClass="passenger" carFollowModel="EIDM" tau="0.86" sigma="0.61" accel="3.21" decel="5.56" length="4.54" minGap="2.67" maxSpeed="13.88" speedDev="0.06" width="1.74" height="1.50" mass="1831.39">
+        <param key="speedFactor" value="1.12"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist50" vClass="passenger" carFollowModel="EIDM" tau="1.26" sigma="0.44" accel="2.93" decel="6.59" length="5.01" minGap="2.09" maxSpeed="11.60" speedDev="0.06" width="1.82" height="1.58" mass="2284.15">
+        <param key="speedFactor" value="1.04"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist51" vClass="passenger" carFollowModel="EIDM" tau="1.14" sigma="0.56" accel="3.30" decel="3.74" length="4.08" minGap="2.77" maxSpeed="15.47" speedDev="0.06" width="1.81" height="1.43" mass="1501.59">
+        <param key="speedFactor" value="1.10"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist52" vClass="passenger" carFollowModel="EIDM" tau="1.34" sigma="0.62" accel="2.89" decel="5.61" length="4.30" minGap="2.50" maxSpeed="13.59" speedDev="0.07" width="1.76" height="1.37" mass="1489.82">
+        <param key="speedFactor" value="1.03"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist53" vClass="passenger" carFollowModel="EIDM" tau="1.42" sigma="0.30" accel="2.68" decel="4.42" length="4.26" minGap="2.21" maxSpeed="14.42" speedDev="0.09" width="1.71" height="1.52" mass="1769.90">
+        <param key="speedFactor" value="1.01"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist54" vClass="passenger" carFollowModel="EIDM" tau="1.46" sigma="0.45" accel="2.56" decel="5.00" length="4.71" minGap="2.00" maxSpeed="17.20" speedDev="0.04" width="1.76" height="1.38" mass="1057.26">
+        <param key="speedFactor" value="1.06"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist55" vClass="passenger" carFollowModel="EIDM" tau="0.73" sigma="0.61" accel="2.62" decel="3.96" length="4.41" minGap="2.52" maxSpeed="14.35" speedDev="0.10" width="1.86" height="1.34" mass="1557.14">
+        <param key="speedFactor" value="0.81"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist56" vClass="passenger" carFollowModel="EIDM" tau="0.79" sigma="0.87" accel="1.94" decel="6.67" length="4.74" minGap="2.59" maxSpeed="15.05" speedDev="0.08" width="1.61" height="1.46" mass="1666.28">
+        <param key="speedFactor" value="0.93"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist57" vClass="passenger" carFollowModel="EIDM" tau="1.18" sigma="0.42" accel="3.14" decel="3.40" length="5.03" minGap="2.93" maxSpeed="12.49" speedDev="0.06" width="1.75" height="1.33" mass="1355.40">
+        <param key="speedFactor" value="0.96"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist58" vClass="passenger" carFollowModel="EIDM" tau="1.15" sigma="0.40" accel="2.88" decel="4.37" length="4.48" minGap="2.99" maxSpeed="14.67" speedDev="0.06" width="1.82" height="1.56" mass="1574.93">
+        <param key="speedFactor" value="0.95"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist59" vClass="passenger" carFollowModel="EIDM" tau="1.37" sigma="0.49" accel="3.19" decel="7.22" length="3.67" minGap="2.61" maxSpeed="16.72" speedDev="0.05" width="1.81" height="1.49" mass="1261.97">
+        <param key="speedFactor" value="0.99"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist60" vClass="passenger" carFollowModel="EIDM" tau="0.39" sigma="0.73" accel="2.87" decel="5.66" length="4.19" minGap="2.30" maxSpeed="12.82" speedDev="0.08" width="1.91" height="1.59" mass="1332.78">
+        <param key="speedFactor" value="1.00"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist61" vClass="passenger" carFollowModel="EIDM" tau="1.15" sigma="0.32" accel="2.32" decel="4.81" length="4.58" minGap="2.60" maxSpeed="12.61" speedDev="0.08" width="1.77" height="1.33" mass="1001.39">
+        <param key="speedFactor" value="1.00"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist62" vClass="passenger" carFollowModel="EIDM" tau="0.73" sigma="0.51" accel="1.99" decel="3.07" length="4.98" minGap="2.52" maxSpeed="11.07" speedDev="0.08" width="1.86" height="1.71" mass="1542.22">
+        <param key="speedFactor" value="0.97"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist63" vClass="passenger" carFollowModel="EIDM" tau="0.59" sigma="0.89" accel="1.83" decel="5.62" length="4.96" minGap="2.60" maxSpeed="13.25" speedDev="0.05" width="1.82" height="1.38" mass="1696.01">
+        <param key="speedFactor" value="1.03"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist64" vClass="passenger" carFollowModel="EIDM" tau="0.80" sigma="0.59" accel="3.06" decel="5.07" length="4.39" minGap="1.73" maxSpeed="9.96" speedDev="0.07" width="1.72" height="1.54" mass="1380.92">
+        <param key="speedFactor" value="1.04"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist65" vClass="passenger" carFollowModel="EIDM" tau="0.89" sigma="0.88" accel="2.48" decel="5.87" length="4.23" minGap="2.02" maxSpeed="15.55" speedDev="0.08" width="1.68" height="1.83" mass="1534.05">
+        <param key="speedFactor" value="0.94"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist66" vClass="passenger" carFollowModel="EIDM" tau="1.14" sigma="0.26" accel="3.30" decel="2.26" length="4.94" minGap="2.36" maxSpeed="11.66" speedDev="0.02" width="1.96" height="1.58" mass="1527.03">
+        <param key="speedFactor" value="0.92"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist67" vClass="passenger" carFollowModel="EIDM" tau="1.00" sigma="0.81" accel="2.41" decel="4.64" length="4.09" minGap="3.39" maxSpeed="13.56" speedDev="0.03" width="1.68" height="1.50" mass="1628.10">
+        <param key="speedFactor" value="1.05"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist68" vClass="passenger" carFollowModel="EIDM" tau="0.39" sigma="0.45" accel="2.70" decel="5.72" length="4.02" minGap="1.71" maxSpeed="12.75" speedDev="0.07" width="1.84" height="1.50" mass="1526.90">
+        <param key="speedFactor" value="1.01"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist69" vClass="passenger" carFollowModel="EIDM" tau="1.49" sigma="0.35" accel="2.72" decel="3.84" length="4.32" minGap="1.76" maxSpeed="17.34" speedDev="0.09" width="1.85" height="1.45" mass="1161.85">
+        <param key="speedFactor" value="0.95"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist70" vClass="passenger" carFollowModel="EIDM" tau="1.24" sigma="0.21" accel="2.58" decel="6.07" length="4.80" minGap="2.80" maxSpeed="10.21" speedDev="0.03" width="1.85" height="1.51" mass="1091.95">
+        <param key="speedFactor" value="1.09"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist71" vClass="passenger" carFollowModel="EIDM" tau="0.77" sigma="0.28" accel="2.42" decel="4.80" length="5.00" minGap="2.70" maxSpeed="9.78" speedDev="0.06" width="1.86" height="1.45" mass="1363.41">
+        <param key="speedFactor" value="0.90"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist72" vClass="passenger" carFollowModel="EIDM" tau="1.05" sigma="0.25" accel="1.73" decel="4.01" length="4.21" minGap="2.57" maxSpeed="13.41" speedDev="0.03" width="1.80" height="1.48" mass="1491.21">
+        <param key="speedFactor" value="0.94"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist73" vClass="passenger" carFollowModel="EIDM" tau="1.16" sigma="0.38" accel="2.22" decel="5.28" length="3.73" minGap="2.04" maxSpeed="16.16" speedDev="0.07" width="1.80" height="1.43" mass="1768.32">
+        <param key="speedFactor" value="0.85"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist74" vClass="passenger" carFollowModel="EIDM" tau="1.10" sigma="0.64" accel="3.32" decel="5.14" length="3.92" minGap="2.34" maxSpeed="14.49" speedDev="0.07" width="1.98" height="1.49" mass="1542.75">
+        <param key="speedFactor" value="1.07"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist75" vClass="passenger" carFollowModel="EIDM" tau="1.23" sigma="0.79" accel="2.73" decel="5.85" length="4.15" minGap="2.75" maxSpeed="13.65" speedDev="0.03" width="1.80" height="1.53" mass="1454.17">
+        <param key="speedFactor" value="1.11"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist76" vClass="passenger" carFollowModel="EIDM" tau="1.00" sigma="0.32" accel="2.55" decel="4.44" length="4.33" minGap="2.28" maxSpeed="15.09" speedDev="0.08" width="1.88" height="1.45" mass="1102.60">
+        <param key="speedFactor" value="1.10"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist77" vClass="passenger" carFollowModel="EIDM" tau="0.94" sigma="0.58" accel="1.96" decel="3.85" length="3.48" minGap="2.10" maxSpeed="13.69" speedDev="0.09" width="1.81" height="1.54" mass="1568.67">
+        <param key="speedFactor" value="1.15"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist78" vClass="passenger" carFollowModel="EIDM" tau="1.55" sigma="0.32" accel="2.13" decel="2.73" length="4.52" minGap="2.00" maxSpeed="10.93" speedDev="0.07" width="1.82" height="1.41" mass="1473.35">
+        <param key="speedFactor" value="1.16"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist79" vClass="passenger" carFollowModel="EIDM" tau="0.99" sigma="0.32" accel="2.59" decel="4.01" length="4.54" minGap="2.36" maxSpeed="15.92" speedDev="0.01" width="1.89" height="1.58" mass="2183.17">
+        <param key="speedFactor" value="0.99"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist80" vClass="passenger" carFollowModel="EIDM" tau="1.29" sigma="0.02" accel="2.72" decel="5.48" length="4.17" minGap="2.18" maxSpeed="11.56" speedDev="0.03" width="1.81" height="1.55" mass="1053.61">
+        <param key="speedFactor" value="1.24"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist81" vClass="passenger" carFollowModel="EIDM" tau="1.18" sigma="0.54" accel="2.47" decel="6.41" length="3.78" minGap="3.38" maxSpeed="15.35" speedDev="0.07" width="1.77" height="1.51" mass="1454.06">
+        <param key="speedFactor" value="0.77"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist82" vClass="passenger" carFollowModel="EIDM" tau="0.80" sigma="0.54" accel="2.18" decel="5.40" length="4.69" minGap="2.65" maxSpeed="15.94" speedDev="0.07" width="1.73" height="1.58" mass="1423.18">
+        <param key="speedFactor" value="1.04"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist83" vClass="passenger" carFollowModel="EIDM" tau="1.27" sigma="0.34" accel="3.52" decel="5.95" length="4.13" minGap="2.00" maxSpeed="15.40" speedDev="0.08" width="1.85" height="1.51" mass="1637.90">
+        <param key="speedFactor" value="1.10"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist84" vClass="passenger" carFollowModel="EIDM" tau="0.70" sigma="0.96" accel="3.13" decel="4.13" length="4.29" minGap="2.61" maxSpeed="15.56" speedDev="0.07" width="1.97" height="1.43" mass="1519.44">
+        <param key="speedFactor" value="0.96"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist85" vClass="passenger" carFollowModel="EIDM" tau="1.00" sigma="0.50" accel="3.69" decel="4.68" length="5.16" minGap="2.52" maxSpeed="13.90" speedDev="0.07" width="1.65" height="1.53" mass="1299.81">
+        <param key="speedFactor" value="1.01"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist86" vClass="passenger" carFollowModel="EIDM" tau="1.42" sigma="0.57" accel="3.23" decel="3.24" length="4.40" minGap="1.87" maxSpeed="14.83" speedDev="0.07" width="1.84" height="1.66" mass="2021.57">
+        <param key="speedFactor" value="0.93"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist87" vClass="passenger" carFollowModel="EIDM" tau="1.20" sigma="0.42" accel="3.03" decel="3.17" length="4.26" minGap="2.59" maxSpeed="12.95" speedDev="0.06" width="1.85" height="1.50" mass="1747.25">
+        <param key="speedFactor" value="0.99"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist88" vClass="passenger" carFollowModel="EIDM" tau="1.41" sigma="0.46" accel="2.34" decel="4.07" length="4.28" minGap="2.92" maxSpeed="13.72" speedDev="0.08" width="1.73" height="1.52" mass="1617.82">
+        <param key="speedFactor" value="1.03"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist89" vClass="passenger" carFollowModel="EIDM" tau="1.17" sigma="0.46" accel="1.78" decel="6.69" length="3.78" minGap="2.06" maxSpeed="14.69" speedDev="0.09" width="1.94" height="1.55" mass="1561.78">
+        <param key="speedFactor" value="0.94"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist90" vClass="passenger" carFollowModel="EIDM" tau="1.52" sigma="0.62" accel="2.39" decel="2.18" length="4.59" minGap="1.96" maxSpeed="13.20" speedDev="0.10" width="1.73" height="1.45" mass="938.72">
+        <param key="speedFactor" value="1.18"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist91" vClass="passenger" carFollowModel="EIDM" tau="0.90" sigma="0.37" accel="2.64" decel="3.15" length="4.34" minGap="2.10" maxSpeed="15.10" speedDev="0.00" width="1.74" height="1.56" mass="837.13">
+        <param key="speedFactor" value="1.12"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist92" vClass="passenger" carFollowModel="EIDM" tau="1.25" sigma="0.21" accel="1.93" decel="5.41" length="4.14" minGap="2.13" maxSpeed="14.43" speedDev="0.03" width="1.77" height="1.40" mass="1266.78">
+        <param key="speedFactor" value="1.14"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist93" vClass="passenger" carFollowModel="EIDM" tau="1.34" sigma="0.65" accel="2.67" decel="5.92" length="4.38" minGap="2.30" maxSpeed="14.32" speedDev="0.10" width="1.84" height="1.58" mass="1090.91">
+        <param key="speedFactor" value="1.17"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist94" vClass="passenger" carFollowModel="EIDM" tau="1.07" sigma="0.76" accel="2.28" decel="3.58" length="3.99" minGap="2.21" maxSpeed="15.64" speedDev="0.00" width="1.98" height="1.48" mass="1381.86">
+        <param key="speedFactor" value="1.03"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist95" vClass="passenger" carFollowModel="EIDM" tau="0.65" sigma="0.34" accel="2.79" decel="5.77" length="3.95" minGap="2.78" maxSpeed="15.88" speedDev="0.09" width="1.79" height="1.45" mass="1359.59">
+        <param key="speedFactor" value="0.86"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist96" vClass="passenger" carFollowModel="EIDM" tau="1.39" sigma="0.41" accel="1.94" decel="6.29" length="4.69" minGap="2.24" maxSpeed="12.08" speedDev="0.07" width="1.88" height="1.33" mass="1613.07">
+        <param key="speedFactor" value="0.94"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist97" vClass="passenger" carFollowModel="EIDM" tau="1.37" sigma="0.61" accel="2.35" decel="2.70" length="4.84" minGap="2.29" maxSpeed="11.80" speedDev="0.06" width="1.72" height="1.45" mass="1483.45">
+        <param key="speedFactor" value="0.85"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist98" vClass="passenger" carFollowModel="EIDM" tau="0.88" sigma="0.35" accel="2.28" decel="4.81" length="4.21" minGap="2.79" maxSpeed="15.77" speedDev="0.05" width="1.92" height="1.63" mass="1721.52">
+        <param key="speedFactor" value="1.08"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+      <vType id="carDist99" vClass="passenger" carFollowModel="EIDM" tau="0.67" sigma="0.80" accel="2.99" decel="3.29" length="4.37" minGap="2.15" maxSpeed="14.77" speedDev="0.04" width="1.78" height="1.56" mass="1535.88">
+        <param key="speedFactor" value="0.92"/>
+        <param key="guiShape" value="choice(passenger/sedan|passenger/SUV|passenger/hatchback)"/>
+        <param key="color" value="randomColor"/>
+      </vType>
+    </vTypeDistribution>
+    <vType id="2135_Renault-5-E-Tech-52kWh-150hp" minGap="2.5" maxSpeed="41.67" color="0.25,0.83,0.06" accel="3.47" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1681" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="52000.0"/>
+      <param key="maximumPower" value="110000.0"/>
+      <param key="frontSurfaceArea" value="2.69"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="100000.0"/>
+    </vType>
+    <vType id="2134_Renault-5-E-Tech-40kWh-120hp" minGap="2.5" maxSpeed="38.89" color="0.98,0.16,0.04" accel="3.09" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1629" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="40000.0"/>
+      <param key="maximumPower" value="90000.0"/>
+      <param key="frontSurfaceArea" value="2.69"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="80000.0"/>
+    </vType>
+    <vType id="1743_Tesla-Model-Y" minGap="2.5" maxSpeed="60.28" color="0.39,0.99,0.74" accel="4.03" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2163" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="57500.0"/>
+      <param key="maximumPower" value="220000.0"/>
+      <param key="frontSurfaceArea" value="3.12"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="170000.0"/>
+    </vType>
+    <vType id="1619_Tesla-Model-Y-Long-Range-Dual-Motor" minGap="2.5" maxSpeed="60.28" color="0.56,0.51,0.65" accel="5.56" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2233" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="75000.0"/>
+      <param key="maximumPower" value="150000"/>
+      <param key="frontSurfaceArea" value="3.12"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="250000.0"/>
+    </vType>
+    <vType id="1183_Tesla-Model-Y-Performance" minGap="2.5" maxSpeed="69.44" color="0.83,0.97,0.05" accel="1.00" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2250" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="75000.0"/>
+      <param key="maximumPower" value="393000.0"/>
+      <param key="frontSurfaceArea" value="3.12"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="250000.0"/>
+    </vType>
+    <vType id="3104_Tesla-Model-Y-Long-Range-AWD" minGap="2.5" maxSpeed="55.83" color="0.68,0.38,0.94" accel="5.79" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2245" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="75000.0"/>
+      <param key="maximumPower" value="150000"/>
+      <param key="frontSurfaceArea" value="3.22"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="250000.0"/>
+    </vType>
+    <vType id="2186_Tesla-Model-Y-Long-Range-RWD" minGap="2.5" maxSpeed="60.28" color="0.60,0.29,0.76" accel="4.71" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2138" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="75000.0"/>
+      <param key="maximumPower" value="150000"/>
+      <param key="frontSurfaceArea" value="3.12"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="250000.0"/>
+    </vType>
+    <vType id="3106_Tesla-Model-Y-Long-Range-AWD-Launch-Series" minGap="2.5" maxSpeed="55.83" color="0.03,0.12,1.00" accel="6.46" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2245" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="75000.0"/>
+      <param key="maximumPower" value="378000.0"/>
+      <param key="frontSurfaceArea" value="3.22"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="250000.0"/>
+    </vType>
+    <vType id="1182_Tesla-Model-Y-Long-Range-Dual-Motor" minGap="2.5" maxSpeed="60.28" color="0.66,0.82,0.82" accel="5.56" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2186" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="72000.0"/>
+      <param key="maximumPower" value="150000"/>
+      <param key="frontSurfaceArea" value="3.12"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="210000.0"/>
+    </vType>
+    <vType id="1974_Tesla-Model-Y" minGap="2.5" maxSpeed="60.28" color="0.31,0.73,0.99" accel="4.03" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2171" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="57500.0"/>
+      <param key="maximumPower" value="220000.0"/>
+      <param key="frontSurfaceArea" value="3.12"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="175000.0"/>
+    </vType>
+    <vType id="2039_Citroen-e-C3" minGap="2.5" maxSpeed="37.5" color="0.86,0.13,0.20" accel="2.42" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1655" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="44000.0"/>
+      <param key="maximumPower" value="83000.0"/>
+      <param key="frontSurfaceArea" value="2.77"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="100000.0"/>
+    </vType>
+    <vType id="2224_Citroen-e-C3-Aircross" minGap="2.5" maxSpeed="40.28" color="0.02,0.90,0.14" accel="2.15" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1704" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="44000.0"/>
+      <param key="maximumPower" value="83000.0"/>
+      <param key="frontSurfaceArea" value="2.98"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="100000.0"/>
+    </vType>
+    <vType id="2069_Renault-Scenic-E-Tech-EV87-220hp" minGap="2.5" maxSpeed="47.22" color="0.04,0.07,0.29" accel="3.52" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2116" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="87000.0"/>
+      <param key="maximumPower" value="160000.0"/>
+      <param key="frontSurfaceArea" value="2.93"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="150000.0"/>
+    </vType>
+    <vType id="2068_Renault-Scenic-E-Tech-EV60-170hp" minGap="2.5" maxSpeed="41.67" color="0.06,0.23,0.12" accel="3.23" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2019" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="60000.0"/>
+      <param key="maximumPower" value="125000.0"/>
+      <param key="frontSurfaceArea" value="2.93"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="130000.0"/>
+    </vType>
+    <vType id="1583_Peugeot-e-208" minGap="2.5" maxSpeed="41.67" color="0.27,0.92,0.24" accel="3.09" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1681" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="46300.0"/>
+      <param key="maximumPower" value="100000.0"/>
+      <param key="frontSurfaceArea" value="2.52"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="101000.0"/>
+    </vType>
+    <vType id="1168_Peugeot-e-208" minGap="2.5" maxSpeed="41.67" color="0.28,0.44,0.94" accel="3.43" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1681" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="46300.0"/>
+      <param key="maximumPower" value="100000.0"/>
+      <param key="frontSurfaceArea" value="2.52"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="101000.0"/>
+    </vType>
+    <vType id="1836_Peugeot-e-208-51-kWh" minGap="2.5" maxSpeed="41.67" color="0.88,0.50,0.27" accel="3.39" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1681" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="48100.0"/>
+      <param key="maximumPower" value="115000.0"/>
+      <param key="frontSurfaceArea" value="2.52"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="100000.0"/>
+    </vType>
+    <vType id="1947_Peugeot-e-2008-54-kWh" minGap="2.5" maxSpeed="41.67" color="0.53,0.67,0.29" accel="3.05" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1783" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="50800.0"/>
+      <param key="maximumPower" value="115000.0"/>
+      <param key="frontSurfaceArea" value="2.7"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="100000.0"/>
+    </vType>
+    <vType id="1206_Peugeot-e-2008-SUV" minGap="2.5" maxSpeed="41.67" color="0.70,0.56,0.36" accel="3.27" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1783" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="46300.0"/>
+      <param key="maximumPower" value="100000.0"/>
+      <param key="frontSurfaceArea" value="2.71"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="101000.0"/>
+    </vType>
+    <vType id="1584_Peugeot-e-2008-SUV" minGap="2.5" maxSpeed="41.67" color="0.46,0.88,0.60" accel="3.27" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1783" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="46300.0"/>
+      <param key="maximumPower" value="100000.0"/>
+      <param key="frontSurfaceArea" value="2.71"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="101000.0"/>
+    </vType>
+    <vType id="1946_Peugeot-e-2008-50-kWh" minGap="2.5" maxSpeed="41.67" color="0.84,0.57,0.85" accel="2.81" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1783" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="46300.0"/>
+      <param key="maximumPower" value="100000.0"/>
+      <param key="frontSurfaceArea" value="2.7"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="101000.0"/>
+    </vType>
+    <vType id="1521_Renault-Megane-E-Tech-EV60-220hp" minGap="2.5" maxSpeed="44.44" color="0.56,0.62,0.44" accel="3.75" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1885" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="60000.0"/>
+      <param key="maximumPower" value="160000.0"/>
+      <param key="frontSurfaceArea" value="2.8"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="129000.0"/>
+    </vType>
+    <vType id="3132_Renault-Megane-E-Tech-EV60-220hp" minGap="2.5" maxSpeed="44.44" color="0.38,0.52,0.33" accel="3.75" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1892" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="60000.0"/>
+      <param key="maximumPower" value="160000.0"/>
+      <param key="frontSurfaceArea" value="2.8"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="129000.0"/>
+    </vType>
+    <vType id="3131_Renault-Megane-E-Tech-EV60-130hp" minGap="2.5" maxSpeed="41.67" color="0.35,0.38,0.39" accel="2.65" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1890" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="60000.0"/>
+      <param key="maximumPower" value="96000.0"/>
+      <param key="frontSurfaceArea" value="2.8"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="129000.0"/>
+    </vType>
+    <vType id="1536_Renault-Megane-E-Tech-EV40-130hp" minGap="2.5" maxSpeed="41.67" color="0.01,0.12,0.22" accel="2.78" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1756" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="40000.0"/>
+      <param key="maximumPower" value="96000.0"/>
+      <param key="frontSurfaceArea" value="2.8"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="85000.0"/>
+    </vType>
+    <vType id="1588_Renault-Megane-E-Tech-EV60-130hp" minGap="2.5" maxSpeed="41.67" color="0.86,0.34,0.72" accel="2.65" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1863" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="60000.0"/>
+      <param key="maximumPower" value="96000.0"/>
+      <param key="frontSurfaceArea" value="2.8"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="129000.0"/>
+    </vType>
+    <vType id="1705_Dacia-Spring-Electric-45" minGap="2.5" maxSpeed="34.72" color="0.22,0.02,0.16" accel="1.45" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1133" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="25000.0"/>
+      <param key="maximumPower" value="33000.0"/>
+      <param key="frontSurfaceArea" value="2.46"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="34000.0"/>
+    </vType>
+    <vType id="1813_Dacia-Spring-Electric-65-Extreme" minGap="2.5" maxSpeed="34.72" color="0.14,0.40,0.50" accel="2.03" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1148" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="25000.0"/>
+      <param key="maximumPower" value="48000.0"/>
+      <param key="frontSurfaceArea" value="2.46"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="34000.0"/>
+    </vType>
+    <vType id="1704_Dacia-Spring-Electric" minGap="2.5" maxSpeed="34.72" color="0.40,0.09,0.29" accel="1.45" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1133" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="25000.0"/>
+      <param key="maximumPower" value="33000.0"/>
+      <param key="frontSurfaceArea" value="2.46"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="34000.0"/>
+    </vType>
+    <vType id="1319_Dacia-Spring-Electric" minGap="2.5" maxSpeed="34.72" color="0.24,0.86,0.84" accel="1.45" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1133" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="25000.0"/>
+      <param key="maximumPower" value="33000.0"/>
+      <param key="frontSurfaceArea" value="2.46"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="34000.0"/>
+    </vType>
+    <vType id="1831_Volkswagen-ID3-Pro" minGap="2.5" maxSpeed="44.44" color="0.49,0.78,0.54" accel="3.81" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1991" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="58000.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.83"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="124000.0"/>
+    </vType>
+    <vType id="1531_Volkswagen-ID3-Pro" minGap="2.5" maxSpeed="44.44" color="0.54,0.21,0.51" accel="2.89" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1989" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="58000.0"/>
+      <param key="maximumPower" value="107000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="124000.0"/>
+    </vType>
+    <vType id="2214_Volkswagen-ID3-Pure" minGap="2.5" maxSpeed="44.44" color="0.82,0.94,0.29" accel="3.39" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1969" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="52000.0"/>
+      <param key="maximumPower" value="125000.0"/>
+      <param key="frontSurfaceArea" value="2.83"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="145000.0"/>
+    </vType>
+    <vType id="2210_Volkswagen-ID3-Pro-S" minGap="2.5" maxSpeed="44.44" color="0.65,0.68,0.64" accel="3.91" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2139" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="77000.0"/>
+      <param key="maximumPower" value="170000.0"/>
+      <param key="frontSurfaceArea" value="2.83"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="175000.0"/>
+    </vType>
+    <vType id="2213_Volkswagen-ID3-Pro" minGap="2.5" maxSpeed="44.44" color="0.14,0.76,0.69" accel="3.66" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1995" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="59000.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.83"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="165000.0"/>
+    </vType>
+    <vType id="1202_Volkswagen-ID3-Pro" minGap="2.5" maxSpeed="44.44" color="0.34,0.92,0.99" accel="2.89" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1985" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="58000.0"/>
+      <param key="maximumPower" value="107000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="124000.0"/>
+    </vType>
+    <vType id="1300_Volkswagen-ID3-1st" minGap="2.5" maxSpeed="44.44" color="0.43,0.09,0.09" accel="3.81" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1974" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="58000.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="124000.0"/>
+    </vType>
+    <vType id="1532_Volkswagen-ID3-Pro-Performance" minGap="2.5" maxSpeed="44.44" color="0.75,0.92,0.53" accel="3.81" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1989" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="58000.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="124000.0"/>
+    </vType>
+    <vType id="2152_Volkswagen-ID3-GTX" minGap="2.5" maxSpeed="50.0" color="0.42,0.37,0.38" accel="4.71" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2158" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="79000.0"/>
+      <param key="maximumPower" value="210000.0"/>
+      <param key="frontSurfaceArea" value="2.78"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="185000.0"/>
+    </vType>
+    <vType id="1203_Volkswagen-ID3-Pro-S" minGap="2.5" maxSpeed="44.44" color="0.70,0.37,0.88" accel="3.52" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2074" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="77000.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="175000.0"/>
+    </vType>
+    <vType id="1530_Volkswagen-ID3-Pure-Performance" minGap="2.5" maxSpeed="44.44" color="0.75,0.46,0.04" accel="3.12" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1962" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="45000.0"/>
+      <param key="maximumPower" value="110000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="101000.0"/>
+    </vType>
+    <vType id="2153_Volkswagen-ID3-GTX-Performance" minGap="2.5" maxSpeed="55.56" color="0.37,0.61,0.73" accel="4.96" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2168" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="79000.0"/>
+      <param key="maximumPower" value="240000.0"/>
+      <param key="frontSurfaceArea" value="2.78"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="185000.0"/>
+    </vType>
+    <vType id="1127_Volkswagen-ID3-Pure-Performance" minGap="2.5" maxSpeed="44.44" color="0.98,0.07,0.95" accel="3.12" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1953" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="45000.0"/>
+      <param key="maximumPower" value="110000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="50000.0"/>
+    </vType>
+    <vType id="1306_Volkswagen-ID3-Pro-Performance" minGap="2.5" maxSpeed="44.44" color="0.63,0.87,0.15" accel="3.81" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1985" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="58000.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="124000.0"/>
+    </vType>
+    <vType id="1533_Volkswagen-ID3-Pro-S-4-Seats" minGap="2.5" maxSpeed="44.44" color="0.14,0.56,0.30" accel="3.52" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2075" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="77000.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="175000.0"/>
+    </vType>
+    <vType id="1832_Volkswagen-ID3-Pro-S-4-Seats" minGap="2.5" maxSpeed="33.3" color="0.67,0.32,0.64" accel="1.00" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1830" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="35000"/>
+      <param key="maximumPower" value="150000"/>
+      <param key="frontSurfaceArea" value="2.62"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="150000"/>
+    </vType>
+    <vType id="1534_Volkswagen-ID3-Pro-S-5-Seats" minGap="2.5" maxSpeed="44.44" color="0.08,0.46,0.96" accel="3.52" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2077" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="77000.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.84"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="175000.0"/>
+    </vType>
+    <vType id="1701_BMW-iX1-xDrive30" minGap="2.5" maxSpeed="50.0" color="0.00,0.64,0.33" accel="4.96" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2275" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="64700.0"/>
+      <param key="maximumPower" value="230000.0"/>
+      <param key="frontSurfaceArea" value="2.98"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="128000.0"/>
+    </vType>
+    <vType id="1996_BMW-iX1-eDrive20" minGap="2.5" maxSpeed="47.22" color="0.56,0.67,0.62" accel="3.35" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2130" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="64700.0"/>
+      <param key="maximumPower" value="150000.0"/>
+      <param key="frontSurfaceArea" value="2.98"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="128000.0"/>
+    </vType>
+    <vType id="1285_Fiat-500e-Hatchback-42-kWh" minGap="2.5" maxSpeed="41.67" color="0.24,0.74,0.75" accel="3.09" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1498" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="37300.0"/>
+      <param key="maximumPower" value="87000.0"/>
+      <param key="frontSurfaceArea" value="2.57"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="85000.0"/>
+    </vType>
+    <vType id="1327_Fiat-500e-Hatchback-24-kWh" minGap="2.5" maxSpeed="37.5" color="0.98,0.07,0.47" accel="3.09" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1381" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="21300.0"/>
+      <param key="maximumPower" value="70000.0"/>
+      <param key="frontSurfaceArea" value="2.57"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="50000.0"/>
+    </vType>
+    <vType id="1275_Fiat-500e-Cabrio-42-kWh" minGap="2.5" maxSpeed="41.67" color="0.56,0.99,0.60" accel="3.09" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1538" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="37300.0"/>
+      <param key="maximumPower" value="87000.0"/>
+      <param key="frontSurfaceArea" value="2.57"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="85000.0"/>
+    </vType>
+    <vType id="1328_Fiat-500e-3plus1-42-kWh" minGap="2.5" maxSpeed="41.67" color="0.59,0.21,0.15" accel="3.09" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1533" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="37300.0"/>
+      <param key="maximumPower" value="87000.0"/>
+      <param key="frontSurfaceArea" value="2.57"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="85000.0"/>
+    </vType>
+    <vType id="1727_Fiat-500e-Cabrio-24-kWh" minGap="2.5" maxSpeed="37.5" color="0.87,0.74,0.91" accel="3.09" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1390" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="21300.0"/>
+      <param key="maximumPower" value="70000.0"/>
+      <param key="frontSurfaceArea" value="2.57"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="50000.0"/>
+    </vType>
+    <vType id="1481_Kia-EV6-Long-Range-2WD" minGap="2.5" maxSpeed="51.39" color="0.85,0.90,0.02" accel="3.81" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2156" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="74000.0"/>
+      <param key="maximumPower" value="168000.0"/>
+      <param key="frontSurfaceArea" value="2.91"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="233000.0"/>
+    </vType>
+    <vType id="3028_Kia-EV6-Long-Range-2WD" minGap="2.5" maxSpeed="51.39" color="0.48,0.52,0.14" accel="3.81" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2156" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="80000.0"/>
+      <param key="maximumPower" value="168000.0"/>
+      <param key="frontSurfaceArea" value="2.96"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="263000.0"/>
+    </vType>
+    <vType id="3029_Kia-EV6-Long-Range-AWD" minGap="2.5" maxSpeed="51.39" color="0.93,0.40,0.32" accel="5.34" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2265" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="80000.0"/>
+      <param key="maximumPower" value="239000.0"/>
+      <param key="frontSurfaceArea" value="2.96"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="263000.0"/>
+    </vType>
+    <vType id="1471_Kia-EV6-GT" minGap="2.5" maxSpeed="72.22" color="0.63,0.31,0.89" accel="7.94" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2361" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="74000.0"/>
+      <param key="maximumPower" value="430000.0"/>
+      <param key="frontSurfaceArea" value="2.92"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="233000.0"/>
+    </vType>
+    <vType id="1482_Kia-EV6-Long-Range-AWD" minGap="2.5" maxSpeed="51.39" color="0.31,0.13,0.36" accel="5.34" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2261" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="74000.0"/>
+      <param key="maximumPower" value="239000.0"/>
+      <param key="frontSurfaceArea" value="2.91"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="233000.0"/>
+    </vType>
+    <vType id="3030_Kia-EV6-Standard-Range-2WD" minGap="2.5" maxSpeed="51.39" color="0.78,0.75,0.41" accel="3.19" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2063" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="60000.0"/>
+      <param key="maximumPower" value="125000.0"/>
+      <param key="frontSurfaceArea" value="2.96"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="195000.0"/>
+    </vType>
+    <vType id="3079_Kia-EV6-GT" minGap="2.5" maxSpeed="72.22" color="0.95,0.91,0.17" accel="7.94" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2391" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="80000.0"/>
+      <param key="maximumPower" value="478000.0"/>
+      <param key="frontSurfaceArea" value="2.92"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="263000.0"/>
+    </vType>
+    <vType id="1480_Kia-EV6-Standard-Range-2WD" minGap="2.5" maxSpeed="51.39" color="0.01,0.88,0.56" accel="3.27" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="2055" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="54000.0"/>
+      <param key="maximumPower" value="125000.0"/>
+      <param key="frontSurfaceArea" value="2.91"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="175000.0"/>
+    </vType>
+    <vType id="1164_Renault-Zoe-ZE50-R110" minGap="2.5" maxSpeed="37.5" color="0.59,0.88,0.25" accel="2.44" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1739" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="52000.0"/>
+      <param key="maximumPower" value="80000.0"/>
+      <param key="frontSurfaceArea" value="2.79"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="46000.0"/>
+    </vType>
+    <vType id="1205_Renault-Zoe-ZE50-R135" minGap="2.5" maxSpeed="38.89" color="0.29,0.49,0.48" accel="2.92" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1739" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="52000.0"/>
+      <param key="maximumPower" value="100000.0"/>
+      <param key="frontSurfaceArea" value="2.79"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="46000.0"/>
+    </vType>
+    <vType id="1026_Renault-Zoe-Q210" minGap="2.5" maxSpeed="37.5" color="0.93,0.59,0.14" accel="2.06" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1674" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="23300.0"/>
+      <param key="maximumPower" value="65000.0"/>
+      <param key="frontSurfaceArea" value="2.7"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="43000.0"/>
+    </vType>
+    <vType id="1078_Renault-Zoe-Q90" minGap="2.5" maxSpeed="37.5" color="0.75,0.96,0.97" accel="2.06" decel="1.0" sigma="0.0" emissionClass="Energy/unknown" mass="1717" carFollowModel="EIDM" tau="1.0" speedDev="0.1" length="4.0" width="1.7" height="1.4">
+      <param key="has.battery.device" value="true"/>
+      <param key="device.battery.capacity" value="41000.0"/>
+      <param key="maximumPower" value="65000.0"/>
+      <param key="frontSurfaceArea" value="2.7"/>
+      <param key="airDragCoefficient" value="0.35"/>
+      <param key="rotatingMass" value="40"/>
+      <param key="radialDragCoefficient" value="0.1"/>
+      <param key="rollDragCoefficient" value="0.01"/>
+      <param key="constantPowerIntake" value="100"/>
+      <param key="propulsionEfficiency" value="0.98"/>
+      <param key="recuperationEfficiency" value="0.96"/>
+      <param key="stoppingThreshold" value="0.1"/>
+      <param key="device.battery.maximumChargeRate" value="43000.0"/>
+    </vType>
+  </vTypeDistribution>

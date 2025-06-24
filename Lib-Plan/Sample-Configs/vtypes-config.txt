@@ -1,0 +1,16 @@
+vClass; passenger
+carFollowModel; EIDM
+tau; normal(1.0,0.3); [0.5,2.5]
+sigma; normal(0.5,0.2); [0.1,1.0]
+accel; normal(2.6,0.5); [1.0,4.0]
+decel; normal(4.5,1.0); [2.0,6.0]
+length; normal(4.5,0.5); [3.0,6.0]
+minGap; normal(2.5,0.5); [1.0,4.0]
+maxSpeed; normal(13.89,2.0); [10.0,20.0]
+speedDev; uniform(0,0.1); [0,0.2]
+width; normal(1.8,0.1); [1.4,2.2]
+height; normal(1.5,0.1); [1.2,2.0]
+mass; normal(1500,300); [1000,2500]
+param; speedFactor; normalCapped(1.0,0.1,0.6,1.4)
+param; guiShape; passenger/sedan
+param; color; 1,0,0
